@@ -55,8 +55,8 @@ Coming soon.
 Currently in the data analysis and visualization stage.
 
 ## Author
-Idea (Kanrutairat D.)
-Gin (Jidapa J.)
+Idea (Kanrutairat D.), 
+Gin (Jidapa J.), 
 Ying (Chaloemkhawn P.)
 
 ## License
