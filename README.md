@@ -55,7 +55,7 @@ Coming soon.
 Currently in the data analysis and visualization stage.
 
 ## Author
-Your Name
+Idea (Kanrutairat)
 
 ## License
 To be determined.
