@@ -6,37 +6,40 @@ how should Bangkok allocate its flood-management budget across districts to redu
 Seven district records have missing average flood duration because no flood events were recorded during the observation period. These values were retained as missing rather than imputed as zero, since average duration is undefined when there are no recorded events. All seven districts were retained for further analysis.
 
 ## WorkFlow
-START: Bangkok Flood Dataset
-budget + flood + historical impact
+Stage A — Machine Learning
+Combine district budget data and flood observations
 
 
-1. Data Preparation
-Clean, encode, handle missing values, check duplicates
+Feature engineering
+
+Create district-level flood characteristics
 
 
-2. Feature Engineering
-Aggregate flood observations into 50 district-level records
+Feature scaling
+
+StandardScaler
 
 
-3. Feature Selection and Scaling
-Select flood-related variables and standardize their scales
+K-Means clustering
+
+Group districts with similar flood characteristics
 
 
-4. K-Means Clustering
-Group districts by similar flood characteristics
+Evaluate and interpret clusters
+
+Elbow method, silhouette score, cluster profiles
 
 
-5. Model Evaluation
-Choose number of clusters, inspect silhouette score and cluster profiles
+Stage B — Budget Optimization
+Use district risk profiles and existing budget data
 
 
-6. District Risk Profiling
-Interpret flood characteristics and identify district priorities
+Define budget constraints and intervention scenarios
 
 
-7. Budget Optimization
-Allocate a fixed budget subject to constraints and estimated intervention effectiveness
+Optimization model
+
+Allocate a fixed budget under explicit assumptions
 
 
-FINAL: Compare Budget Allocation Strategies
-Current allocation vs proposed allocation
+Compare current and proposed allocations
