@@ -1,4 +1,4 @@
-The temporal analysis revealed that flooding events in the dataset were concentrated during particular months, especially May, September, and October. 
+The analysis revealed that flooding events in the dataset were concentrated during particular months, especially May, September, and October. 
 Although May recorded the highest number of flooding events, September exhibited the highest mean flooding duration. 
 This indicates that flooding frequency and persistence are distinct characteristics of urban flooding. 
 
