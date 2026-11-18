@@ -24,8 +24,6 @@ The project dataset covers **Bangkok, Thailand, during 2024–2025**. The reposi
 
 The cleaned dataset used for analysis is available in [data/](./data/).
 
-> **Source note:** Add or maintain the original dataset provider, source URL, access date, and any related data documentation in the data folder. The assignment requires credible data sources; this README does not assume a specific provider where it is not documented in the repository.
-
 ## 3. Data Cleaning and Transformation
 
 The data preparation stage organizes the raw observations into a format suitable for analysis. The cleaned dataset is stored in the data folder.
